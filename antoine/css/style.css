@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    background-color: #89cff0;
+}
+
+.row h1,
+.row h5 {
+    text-align: center;
+}
+
+.artist-img {
+    text-align: center;
+}
+
+img {
+    border: 2px dashed black;
+    width: 50vw;
+    height: 50vw;
+}
+
+p {
+    text-align: left;
+}
+
+li {
+    font-size: 12pt;
+}
+
+ul {
+    padding: 0;
+}
+
+#comments li {
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px 1px;
+    list-style: none;
+}
+
+.flash {
+    background-color:blue;
+    animation:flash 2s linear infinite;
+}
+@keyframes flash { 
+    25%     { border-color: white }
+    50%     { 
+                border-width: 10px;
+                border-color: green; 
+            }
+    75%     { border-color: red }
+    100%    { 
+              border-color: blue;
+            } 
+}
