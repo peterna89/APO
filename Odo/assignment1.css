@@ -1,0 +1,96 @@
+body {
+    background-color: lightcoral;
+}
+
+.link {
+    width: max-content;
+    border-bottom: 1px solid black;
+}
+
+a {
+    display: inline-block;
+    background-color: pink;
+
+    margin: 2px;
+    padding: 2px;
+
+    font-size: 1em;
+
+    /* width: 100%; */
+    margin: 0 auto;
+}
+
+.heading-container {
+    position: relative;
+}
+
+.heading-img,
+.bottom-img {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 20%;
+}
+
+.row {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.button {
+    margin-right: -4px;
+}
+
+.content-left,
+.content-middle,
+.content-right {
+
+    box-sizing: border-box;
+    border: 1px dotted black;
+    height: 200px;
+    margin: 0 10px;
+
+    overflow: scroll;
+}
+
+.jb-bg {
+    background-image: url('./Media/heading.jpg');
+    background-size: cover;
+}
+
+.fun-font {
+    font-family: 'Architects Daughter', cursive;
+    color: pink;
+}
+
+.chinese-font {
+    font-family: Georgia, "Times New Roman", "FangSong", "仿宋", STFangSong, "华文仿宋", serif;
+
+    color: gold;
+}
+
+.album-img1,
+.album-img2,
+.album-img3 {
+    display: inline-block;
+
+    width:70%;
+    margin: 10px auto;
+}
+
+.table-row {
+    display: table-row;
+}
+@media screen and (max-width:700px) {
+    body{
+        background-color: green;
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width:500px) {
+    body{
+        background-color: purple;
+        font-size: 1,5em;
+    }
+}
