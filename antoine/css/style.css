@@ -37,6 +37,29 @@ ul {
     list-style: none;
 }
 
+
+.jumbotron.home,
+.jumbotron.xavier,
+.jumbotron.frank,
+.jumbotron.brent {
+    background-size: cover;
+    height: 85vh;
+    border: 1px solid white;
+    color: lightgray;
+}
+
+.jumbotron.home {
+    background-image: url('https://lh3.googleusercontent.com/-vQ2Ms6IgA4s/AAAAAAAAAAI/AAAAAAAAABc/s6Di5DkmCnc/s640/photo.jpg');
+}
+.jumbotron.brent {
+    background-image: url('http://images.complex.com/complex/images/fl_lossy,q_auto/v1/qmdaonywqzaj8z0tiiv5/brent-faiyaz-sonder-dee-williams-2017');
+}
+.jumbotron.frank {
+    background-image: url('http://onwallhd.info/wp-content/uploads/pic-big/frank-ocean_2.jpg');
+}
+.jumbotron.xavier {
+    background-image: url('https://complex-res.cloudinary.com/images/c_crop,h_986,w_1315,x_0,y_357/f_auto,fl_lossy,q_auto,w_1200/mpve4mkwbgdvzdhunzrr/xavier-omar-press-2017');
+}
 .flash {
     background-color:blue;
     animation:flash 2s linear infinite;
