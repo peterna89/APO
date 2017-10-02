@@ -20,10 +20,10 @@ $(document).ready(function() {
     });
     
     // on hover image border changes color and grows
-    $('.artist').hover(function() {
-        $('.artist').addClass('flash');
+    $('.jumbotron').hover(function() {
+        $('.jumbotron').addClass('flash');
     },function() {
-        $('.artist').removeClass('flash');
+        $('.jumbotron').removeClass('flash');
     });
 
 
