@@ -1,0 +1,43 @@
+ul{background-color: darkslategrey;
+    font-size: 1.5em; 
+    }
+body {
+    padding: 20px;
+    background-color: #f3ea5f !important;
+}
+p2{font-size: 30px;
+    color: black;
+}
+.early{
+    font-size: 30px;
+    color: purple;
+}
+    h2{font-size: 35px;
+    color: purple;
+
+}
+p1{font-size: 15px;
+    color:black;
+    
+}
+p{font-size: 1em;
+    color:black;
+}
+p3{font-size: 1em;
+    color: black;
+}
+p4{font-size: 1em;
+    color: black;
+}
+
+.benson {
+    
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 1.8s ease-in-out;
+            transition:         transform 1.8s ease-in-out;
+  }
+  img:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+
+}
